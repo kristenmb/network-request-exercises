@@ -15,7 +15,7 @@ The project asked for a visual display of GET, POST, and DELETE network requests
 
 OR
 
-Visit live site [here]()
+Visit live site [here](https://kristenmb.github.io/network-request-exercises/)
 
 ## Technologies Used
 1. HTML
