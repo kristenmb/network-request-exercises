@@ -8,8 +8,16 @@ html {
   width: 100%;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .wrapper {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -23,4 +31,9 @@ html {
   align-items: center;
   border: solid 2pt rgb(117, 23, 23);
   border-radius: 5%;
+  padding: 5%;
+}
+
+.hidden {
+  display: none;
 }

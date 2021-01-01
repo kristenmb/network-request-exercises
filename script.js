@@ -5,6 +5,8 @@ const deleteButton = document.querySelector("#delete");
 getButton.addEventListener('click', async() => {
   const dataDisplay = document.querySelector("#data-display");
   const animalList = await animals;
+  const tempInfo = document.querySelector("#temp");
+  tempInfo.classList.add('hidden');
   animalList.forEach(animal => {
     dataDisplay.innerHTML += `
     <h2>${animal.id}. ${animal.name}</h2>

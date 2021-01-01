@@ -9,30 +9,34 @@
     <title>Animal API Practice</title>
   </head>
     <body>
-      <h1>Animal Data</h1>
-      <div class="get-section">
-        <section class="data" id="data-display"></section>
-        <button class="command" id="get">GET</button>
-      </div>  
-      <div class="wrapper">
-        <div class="post-section">
-          <label class="name" for="idNum">animal id</label>
-          <input type="text" id="idNum" required>
-          <label class="name" for="name">animal name</label>
-          <input type="text" id="name" required>
-          <label class="diet" for="diet">what do they like to munch on?</label>
-          <input type="text" id="diet" required>
-          <label class="fun_fact"for="fact">fun fact</label>
-          <input type="text" id="fact" required>
-          <button class="command" id="post">POST</button>
-        </div>
-      </div>  
-      <div class="delete-section">
-        <label for="delete-name">enter animal name</label>
-        <p>*Wait a moment, refresh, and push GET again</p>
-        <input type="text" id="delete-name" required>
-        <button class="command" id="delete">DELETE</button>
-      </div>
+      <main>
+        <h1>Animal Data</h1>
+        <div class="get-section">
+          <section class="data" id="data-display">
+            <p id="temp">Push GET to view animal info</p>
+          </section>
+          <button class="command" id="get">GET</button>
+        </div>  
+        <div class="wrapper">
+          <div class="post-section">
+            <label class="name" for="idNum">animal id</label>
+            <input type="text" id="idNum" required>
+            <label class="name" for="name">animal name</label>
+            <input type="text" id="name" required>
+            <label class="diet" for="diet">what do they like to munch on?</label>
+            <input type="text" id="diet" required>
+            <label class="fun_fact"for="fact">fun fact</label>
+            <input type="text" id="fact" required>
+            <button class="command" id="post">POST</button>
+          </div>
+          <div class="delete-section">
+            <label for="delete-name">enter animal number</label>
+            <p>*Wait a moment, refresh, and push GET again</p>
+            <input type="text" id="delete-name" required>
+            <button class="command" id="delete">DELETE</button>
+          </div>
+        </div>  
+      </main>
   <script src="data.js"></script>    
   <script src="script.js"></script>
   </body>
