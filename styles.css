@@ -15,15 +15,22 @@ main {
   align-items: center;
 }
 
-h1 {
+h1,
+.how-to {
   color: rgb(97, 19, 19);
   background-color: pink;
-  width: 22vw;
+  width: auto;
 }
 
 p {
   font-size: small;
   margin: 0;
+}
+
+.how-to {
+  border: solid 2pt rgb(117, 23, 23);
+  padding: 2%;
+  border-radius: 10%;
 }
 
 .wrapper {

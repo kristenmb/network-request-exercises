@@ -2,24 +2,6 @@ const getButton = document.querySelector("#get");
 const addButton = document.querySelector("#post");
 const deleteButton = document.querySelector("#delete");
 
-// const animals = fetch("http://localhost:3001/api/v1/animals")
-//   .then(response => response.json())
-//   .then (animals => animals)        
-
-// getButton.addEventListener('click', async() => {
-//   const dataDisplay = document.querySelector("#data-display");
-//   const animalList = await animals;
-//   const tempInfo = document.querySelector("#temp");
-//   tempInfo.classList.add('hidden');
-//   animalList.forEach(animal => {
-//     dataDisplay.innerHTML += `
-//     <h2>${animal.id}. ${animal.name}</h2>
-//     <p>Diet: ${animal.diet}</p>
-//     <p>Fun Fact: ${animal.fun_fact}</p>
-//   `
-//   });
-// })
-
 getButton.addEventListener('click', listAnimals);
 addButton.addEventListener('click', addNewAnimal);
 deleteButton.addEventListener('click', removePost);
@@ -69,6 +51,7 @@ function postAnimal(newPost) {
     })
       .then((response) => response.json())
       .then(animal => animal)
+  listAnimals();
 }
 
 function clearInput(valueName) {
