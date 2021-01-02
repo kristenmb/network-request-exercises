@@ -3,7 +3,10 @@
 This was a coding challenege to practice utilizing <code>fetch</code> in network requests to a provided API database.
 
 The spec for this challenge can be found [here](https://frontend.turing.io/lessons/module-2/network-request-exercises.html).
-The project asked for a visual display of GET, POST, and DELETE network requests.
+<br>
+The project asked for a visual display of GET, POST, and DELETE network requests, so I created a rudimentary webpage that allows a user to get the data, post a new piece of data, and delete a piece of data using an id. This was solely an excersize to better understand fetch and network requests. 
+
+![site](https://media.giphy.com/media/aKG0O5evMhEl5lXC0a/giphy.gif)
 
 ## How to Install
 1. `fork` this repository
@@ -12,10 +15,6 @@ The project asked for a visual display of GET, POST, and DELETE network requests
 4. Run `npm install`
 5. Open index.html
 6. Run <code>node server.js</code>
-
-OR
-
-Visit live site [here](https://kristenmb.github.io/network-request-exercises/)
 
 ## Technologies Used
 1. HTML
