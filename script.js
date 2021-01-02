@@ -51,7 +51,6 @@ function postAnimal(newPost) {
     })
       .then((response) => response.json())
       .then(animal => animal)
-  listAnimals();
 }
 
 function clearInput(valueName) {
