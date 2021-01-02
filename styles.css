@@ -3,7 +3,7 @@
 }
 
 html {
-  background-color: pink;
+  background-image: url(https://c0.wallpaperflare.com/preview/423/840/866/animals-background-collection-colorful.jpg);
   height: 100%;
   width: 100%;
 }
@@ -13,6 +13,17 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  color: rgb(97, 19, 19);
+  background-color: pink;
+  width: 22vw;
+}
+
+p {
+  font-size: small;
+  margin: 0;
 }
 
 .wrapper {
@@ -33,6 +44,8 @@ main {
   border: solid 2pt rgb(117, 23, 23);
   border-radius: 5%;
   padding: 5%;
+  background-color: pink;
+
 }
 
 .hidden {
