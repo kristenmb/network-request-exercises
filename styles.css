@@ -29,6 +29,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
   border: solid 2pt rgb(117, 23, 23);
   border-radius: 5%;
   padding: 5%;
